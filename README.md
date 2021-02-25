@@ -13,15 +13,16 @@ AnimeGANv2(Look at the picture)
 
 ## Compiled project on [hub.docker.com](https://hub.docker.com/)
 
-- [Normal version](https://hub.docker.com/layers/138465383/literature/animegan/latest/images/sha256-719f95bce16bab24b41df6dcfd29700d4ee775b8f2c80f87b758cffa93a41ab0?context=explore)
-- [Heroku version](https://hub.docker.com/layers/literature/animegan/heroku/images/sha256-ca41a80123f93de22392ba1465e624206ef01e7c41ab7176ca00ab789e6a68b1?context=explore)
+- [Normal version](https://hub.docker.com/layers/138992015/literature/animegan-paddle/latest/images/sha256-4440352090b0c978b41825c5118217679df080e444c9b41176b553cf0912aaf6?context=explore)
+- [GPU version](https://hub.docker.com/layers/138991480/literature/animegan-paddle/gpu/images/sha256-53449d6fb2fb4cd7e0bcba4ee2b7abe01dba8ea4250cabbfca391b948f6c6621?context=explore)
+- [Heroku version](https://hub.docker.com/layers/138990300/literature/animegan-paddle/heroku/images/sha256-bd4c78b9cd7abe2afd4f0e325eb42f420e79ce393b263514e43fd4491b971252?context=explore)
 
 ## Build
 > Make sure you have `docker` installed
 1. Clone the Animegan repository:
     ```
-    git clone https://github.com/LiteraturePro/Animegan.git
-    cd Animegan
+    git clone https://github.com/LiteraturePro/Animegan_Paddle.git
+    cd Animegan_Paddle
     ```
 2. Input command to build image：
     ```
@@ -47,13 +48,13 @@ AnimeGANv2(Look at the picture)
 I have built the image and can install it directly. The installation command is as follows(You can specify the running port yourself)：
 - For general
     ```
-    docker pull literature/animegan:latest
-    docker run -p 8080:8080 literature/animegan:latest
+    docker pull literature/animegan-paddle:latest
+    docker run -p 8080:8080 literature/animegan-paddle:latest
     ```
 - For heroku
     ```
-    docker pull literature/animegan:heroku
-    docker run -p 8080:8080 literature/animegan:heroku
+    docker pull literature/animegan-paddle:heroku
+    docker run -p 8080:8080 literature/animegan-paddle:heroku
     ```
 
 Now your service has started to run, but it runs on the local port. If you need to realize the external network call, you need to act as an agent to proxy the service to your domain name，
