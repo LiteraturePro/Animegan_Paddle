@@ -1,5 +1,16 @@
 # Animegan_Paddle
-Docker version API for AnimeGANv2
+
+> Docker version API for AnimeGANv2!
+
+The webapp is deployed Divio-Online here - https://animegan-paddle.us.aldryn.io/
+
+The webapp is deployed Divio-Test - https://animegan-paddle-stage.us.aldryn.io/
+
+The webapp is deployed Aliyun Severless here - 
+
+---
+
+## What is this?
 
 - Original address of the project[AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2)
 - The project used by this version[Animegan2-Pytorch](https://github.com/bryandlee/animegan2-pytorch)
