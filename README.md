@@ -2,9 +2,9 @@
 
 > Docker version API for AnimeGANv2!
 
-The webapp is deployed Divio-Online here - https://animegan.us.aldryn.io/
+The webapp is deployed Divio-Online here - https://animegan-paddle.us.aldryn.io/
 
-The webapp is deployed Divio-Test - https://animegan-stage.us.aldryn.io/
+The webapp is deployed Divio-Test - https://animegan-paddle-stage.us.aldryn.io/
 
 The webapp is deployed Aliyun Severless here - 
 
