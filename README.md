@@ -6,7 +6,7 @@ The webapp is deployed Divio-Online here - https://animegan-paddle.us.aldryn.io/
 
 The webapp is deployed Divio-Test - https://animegan-paddle-stage.us.aldryn.io/
 
-The webapp is deployed Aliyun Severless here - 
+The webapp is deployed Heroku here - https://apaddle-demo.herokuapp.com/
 
 ---
 
